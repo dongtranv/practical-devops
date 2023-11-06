@@ -8,8 +8,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    input{
-      width: 80% !important;
+    gap: 20px;
+    button {
+      flex-shrink: 0;
     }
   }
 }

@@ -17,7 +17,7 @@ export default class TodoList extends React.Component {
 
   renderTodos(todos) {
     return (
-      <ul className="list-group">
+      <ul className="list-group mt-3">
         {todos.map((todo, i) => (
           <li
             className={
@@ -41,7 +41,7 @@ export default class TodoList extends React.Component {
     return todos.length > 0 ? (
       this.renderTodos(todos)
     ) : (
-      <div className="alert alert-primary" role="alert">
+      <div className="alert alert-secondary mt-3" role="alert">
         No Todos to display
       </div>
     );

@@ -48,6 +48,7 @@ export default class App extends React.Component {
               </div>
             </div>
           </div>
+          <div className="author">SD3082 - Dong Tran Van</div>
         </div>
       </div>
     );
